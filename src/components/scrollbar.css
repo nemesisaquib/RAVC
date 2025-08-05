@@ -1,0 +1,41 @@
+/* Custom Scrollbar CSS - Matching the image design */
+.scrollbar-custom {
+  scrollbar-width: thin;
+  scrollbar-color: #D4AF37 #E5E5E5; /* Gold thumb | Light gray track */
+}
+
+/* Webkit (Chrome, Edge, Safari) */
+.scrollbar-custom::-webkit-scrollbar {
+  height: 12px; /* Increased height for better visibility */
+  background: transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #E5E5E5; /* Light gray track */
+  border-radius: 50px;
+  margin: 0 10px; /* Add margin to make track shorter than container */
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #FFD700 0%, #DAA520 100%); /* Golden gradient */
+  border-radius: 50px;
+  border: none;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1); /* Subtle inner shadow */
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, #DAA520 0%, #B8860B 100%); /* Darker on hover */
+}
+
+/* Remove scrollbar arrows completely */
+.scrollbar-custom::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* Example usage container */
+.scroll-container {
+  width: 100%;
+  padding: 20px 0;
+}
