@@ -10,10 +10,10 @@ export default function Purpose() {
 
       {/* Floating Logos */}
       <div className="hidden md:block absolute top-[25%] left-0 z-30 w-[60px] sm:w-[80px]">
-        <img src="/logo2.svg" alt="Logo" className="w-full h-auto" />
+        <img src="/logo.svg" alt="Logo" className="w-full h-auto" />
       </div>
       <div className="hidden md:block absolute top-4 right-0 z-30 w-[60px] sm:w-[80px]">
-        <img src="/logo2.1.svg" alt="Heart Icon" className="w-full h-auto" />
+        <img src="/logo.svg" alt="Heart Icon" className="w-full h-auto" />
       </div>
 
       {/* Content */}
