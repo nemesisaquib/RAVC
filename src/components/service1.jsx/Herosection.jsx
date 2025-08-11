@@ -41,7 +41,7 @@ export default function Herosection() {
           variants={fadeInUp}
           custom={0.1}
         >
-          Turn Your Rooftop Into a Power Plant
+           Solar Rooftop Solution for Commercial & Residence
         </motion.h2>
 
         <motion.p
@@ -51,9 +51,9 @@ export default function Herosection() {
           variants={fadeInUp}
           custom={0.3}
         >
-          Harness the sun. Lower your bills. Elevate your energy independence
-          <br className="hidden md:block" />
-          — with RAVC’s trusted rooftop solar solutions
+           Elevate your energy independence
+          
+          with RAVC’s trusted rooftop solar solutions
         </motion.p>
 
         <motion.div

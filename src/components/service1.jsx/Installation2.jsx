@@ -6,7 +6,7 @@ const cardData = [
     {
         icon: FaMapMarkedAlt,
         title: 'PAN-India Delivery',
-        description: 'Projects executed across 15+ states with local teams',
+        description: 'Project Executed across multiple States in India',
     },
     {
         icon: FaTools,
@@ -20,8 +20,8 @@ const cardData = [
     },
     {
         icon: FaThumbsUp,
-        title: 'Trusted by Leaders',
-        description: 'Proven expertise across rooftops from 5kW to 1MW+',
+        title: 'KW to MW',
+        description: 'Proven expertise across rooftops from KW to MW',
     },
 ];
 
@@ -42,7 +42,7 @@ const Installation2 = () => {
                         <h2 className="text-gray-900 text-[24px] sm:text-[26px] md:text-[30px] lg:text-[34px] font-bold leading-[41px]">
                             Why choose RAVC for your Rooftop Solar?
                         </h2>
-                        <p className="text-gray-600 text-[16px] sm:text-[20px] lg:text-[22px] leading-[34px] mt-2 max-w-[586px]">
+                        <p className="text-gray-600 text-[16px] sm:text-[20px] lg:text-[22px] leading-[34px] mt-2 max-w-[686px]">
                             Our competitive advantages in rooftop solar implementation
                         </p>
                     </motion.div>

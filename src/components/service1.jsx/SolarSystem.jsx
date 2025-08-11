@@ -23,7 +23,7 @@ const slideInRight = {
 const SolarSystem = () => {
   const features = [
     'Custom-designed for your roof type and space',
-    'High-efficiency solar panels with 25-year warranty',
+    'High-efficiency solar panels with 30-year warranty',
     'Smart monitoring for real-time performance tracking',
   ];
 
@@ -92,7 +92,7 @@ const SolarSystem = () => {
             variants={fadeUp}
             custom={1}
           >
-            RAVC designs and implements rooftop photovoltaic systems tailored for commercial, industrial, residential, and institutional infrastructure. Our rooftop solutions are designed to reduce energy costs, enhance green credentials, and ensure energy reliability in a rapidly changing energy landscape.
+            RAVC designs and implements Rooftop Solar Installation  tailored for commercial, industrial, residential, and institutional infrastructure. Our rooftop solutions are designed to reduce energy costs, enhance green credentials, and ensure energy reliability in a rapidly changing energy landscape.
           </motion.p>
 
           <motion.p
