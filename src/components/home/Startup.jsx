@@ -53,16 +53,16 @@ export default function Startup() {
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mb-8">
             {[
               {
-                number: '100+',
-                text: 'MW of solar\ninfrastructure touched',
+                number: '250+',
+                text: 'MW of Solar infrastructure touched',
               },
               {
                 number: '26+',
                 text: 'Pan-India execution\nfootprint',
               },
               {
-                number: '2026',
-                text: 'Vision to integrate EV\nand microgrid\ninnovations',
+                number: '2028',
+                text: 'To develop 1GW IPP Project',
               }
             ].map((stat, index) => (
               <motion.div

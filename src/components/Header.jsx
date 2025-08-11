@@ -459,25 +459,25 @@ const HEADER_CONFIG = {
 const SERVICE_ITEMS = [
     {
     icon: Zap,
-    title: "EPC Development",
-    subtitle: "Stunning web design",
+    title: " Engineering, Procurement, and Construction (EPC)",
+    subtitle: "EPC Development - Engineering, Procurement, and Construction (EPC)",
     path: "/epc-development"
   },
   {
     icon: Eye,
-    title: "IPP",
+    title: "Independent Power Producer (IPP)",
     subtitle: "Functional digital products",
     path: "/coming-soon"
   },
   {
     icon: Sun,
-    title: "Solar Rooftop",
+    title: "Rooftop Solar - Commercial & Residential",
     subtitle: "Get creative inspiration",
     path: "/solar-rooftop"
   },
   {
     icon: Settings,
-    title: "O&M Services ",
+    title: " Operations & Maintenance Services (O&M) ",
     subtitle: "Impactful storytelling",
     path: "/operation-and-maintenance"
   },

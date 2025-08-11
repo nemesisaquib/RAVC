@@ -63,10 +63,10 @@ const SolarEnergyComponent = () => {
         {/* Services Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-6">
           {[
-            { title: 'EPC Development', detail: 'Performance optimization' },
-            { title: 'IPP', detail: '1MW–100MW projects' },
-            { title: 'Rooftop Solar Installations', detail: 'Commercial &\nresidential' },
-            { title: 'Operation & Maintenance\n(O&M)', detail: 'Turnkey solutions' },
+            { title: 'EPC Development', detail: 'Ensuring Performance Optimization and reduce operational cost for better ROI.' },
+            { title: 'IPP', detail: 'Identify energy-saving opportunities and improve efficiency across systems.' },
+            { title: 'Rooftop Solar Installations', detail: 'Empowering Buildings To Become Energy Producers, Not Just Consumers.' },
+            { title: 'Operation & Maintenance\n(O&M)', detail: 'Focusing on precision, quality, and performance using cutting edge technologies.' },
           ].map((item, idx) => (
             <motion.div
               key={idx}

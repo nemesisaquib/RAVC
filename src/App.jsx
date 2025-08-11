@@ -32,15 +32,15 @@ function App() {
 
 
 
-const [loading, setLoading] = useState(true); 
+// const [loading, setLoading] = useState(true); 
 
-  useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 2000); 
-    return () => clearTimeout(timer);
-  }, []);
+//   useEffect(() => {
+//     const timer = setTimeout(() => setLoading(false), 2000); 
+//     return () => clearTimeout(timer);
+//   }, []);
 
-  console.log("aquib");
-  if (loading) return <Loader />; 
+//   console.log("aquib");
+//   if (loading) return <Loader />; 
 
 
 

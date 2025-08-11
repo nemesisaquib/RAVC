@@ -22,10 +22,10 @@ const slideInRight = {
 
 const SolarEpc = () => {
   const features = [
-    'Solar farms (1–100MW+)',
-    'Captive power plants for industrial clients',
-    'Institutional/commercial ground-mount projects',
-    'DISCOM-synchronized solar parks',
+    // 'Solar farms (1–100MW+)',
+    // 'Captive power plants for industrial clients',
+    // 'Institutional/commercial ground-mount projects',
+    // 'DISCOM-synchronized solar parks',
   ];
 
   return (

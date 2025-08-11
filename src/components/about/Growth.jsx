@@ -54,7 +54,7 @@ const GrowthImpactSection = () => {
 
         {/* Paragraph */}
         <motion.p
-          className="text-[16px] sm:text-[20px] lg:text-[22px] leading-relaxed font-normal  max-w-full sm:max-w-[626px]"
+          className="text-[16px] sm:text-[20px] lg:text-[22px] leading-relaxed font-normal  max-w-full sm:max-w-[826px]"
           variants={fadeUp}
           custom={1}
         >
@@ -69,7 +69,7 @@ const GrowthImpactSection = () => {
           viewport={{ once: true }}
         >
           {[
-            'Solar Microgrids',
+            'To develop 1GW IPP project by 2028',
             'Decentralized power access in Tier II & III towns',
           ].map((item, index) => (
             <motion.li
@@ -110,7 +110,7 @@ const GrowthImpactSection = () => {
               fontStyle: 'italic',
             }}
           >
-            We’re not just expanding vertically — we’re expanding responsibly, integrating sustainability into every project lifecycle and every stakeholder relationship.
+           Powering India’s sustainable future through unmatched quality, efficiency, and care for the environment, society, employees, and shareholders.
           </p>
 
           {/* Closing Quote Icon */}

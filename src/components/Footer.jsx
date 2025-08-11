@@ -158,7 +158,7 @@ const Footer = () => {
       >
         <div className="flex gap-4 font-medium text-sm">
           <span className="hover:underline cursor-pointer">Privacy Policy</span>
-          <span className="hover:underline cursor-pointer">Legal Notice</span>
+          <span className="hover:underline cursor-pointer">Terms and condition </span>
         </div>
         <div className="text-[#e5a844] font-medium text-sm">
           © 2025 RAVC Solutions Pvt Ltd. All Rights Reserved.

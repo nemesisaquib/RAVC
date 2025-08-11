@@ -61,18 +61,18 @@ export default function Why() {
           variants={fadeInUp}
           custom={1}
         >
-          At RAVC, we don't just follow industry standards — we set them. We
+          At RAVC, we don't just follow industry standards — we Exceed them. We
           combine technical knowledge with a distinct work ethic with the
           belief that:
         </motion.p>
 
         {/* Quote Box */}
         <motion.div
-          className="bg-[#F9D982] px-2 py-4 rounded-md text-[22px] mx-auto"
+          className=" px-2 py-4 rounded-md text-[22px] mx-auto"
           variants={fadeInUp}
           custom={2}
         >
-          "Even the smallest act done differently can lead to exceptional outcomes."
+          Even the smallest act done differently can lead to exceptional outcomes.
         </motion.div>
 
         {/* Subheading */}

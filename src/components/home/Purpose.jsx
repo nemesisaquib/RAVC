@@ -32,7 +32,7 @@ export default function Purpose() {
           </h1>
 
           <p className="text-[16px] sm:text-[18px] lg:text-[22px] font-normal leading-[28px] sm:leading-[32px] lg:leading-[34px] text-gray-700 capitalize px-2 sm:px-6 lg:px-10">
-            Every Solution We Work On, Every Mega Watt We Contribute Is A Step Towards A Self-sufficient, Viksit Bharat With Our Commitment Towards The World For Clean, Sustainable, And Renewable Energy.
+            Every Solution we provide is a step towards a Self-Sufficient Vikasit Bharat. <br /> We are commited towards the World powered by Clean, Sustainable and Renewable Energy.
           </p>
         </motion.div>
 

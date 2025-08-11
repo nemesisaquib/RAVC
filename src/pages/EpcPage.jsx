@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Herosection from '../components/epc/Herosection'
 import SolarEpc from '../components/epc/SolarEpc'
-import Technical from '../components/epc/Technical'
+// import Technical from '../components/epc/Technical'
 import WhyChoose from '../components/epc/WhyChoose'
 import ProjectTypes from '../components/epc/ProjectTypes'
 import Documentation from '../components/epc/Documentation'
@@ -18,7 +18,7 @@ const EpcPage = () => {
             <Herosection />
             <SolarEpc />
             <ScopeofServices/>
-            <Technical />
+            {/* <Technical /> */}
             <div className="w-full flex justify-center my-10">
                 <div className="flex items-center w-full max-w-7xl">
                     <div className="w-2 h-2 bg-[#CDCDCD] rounded-full"></div>

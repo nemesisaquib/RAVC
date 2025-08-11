@@ -23,8 +23,8 @@ function About() {
             <Header />
             <Herosection />
             <Journey/>
-            <SolarEnergyComponent />
             <VisionMission />
+            <SolarEnergyComponent />
             <Purpose />
             <GrowthImpactSection />
              <Why/>

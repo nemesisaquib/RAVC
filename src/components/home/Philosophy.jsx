@@ -46,7 +46,7 @@ export default function Philosophy() {
               </h1>
 
               <p className="text-white text-[16px] sm:text-[18px] lg:text-[22px] sm:text-base leading-relaxed opacity-90">
-                Every RAVC project is designed to reduce emissions, enhance efficiency, and uplift lives. From water conservation to rooftop awareness drives, we align our services with global sustainability goals.
+                Every RAVC project is designed to reduce emissions, enhance efficiency, and uplift lives. From PPC to IPP & Public to Government Sustainability is not just a Motto, we align our services with Indian sustainability goals .
               </p>
             </div>
           </motion.div>
@@ -67,9 +67,9 @@ export default function Philosophy() {
               transition={{ staggerChildren: 0.15 }}
             >
               {[
-                { value: '100%', label: 'Carbon Neutral\nProjects' },
-                { value: '25+', label: 'Villages\nTransformed' },
-                { value: '0', label: 'Harm\nIncidents' },
+                { value: '250+', label: 'MV Solar \nPower Touched.' },
+                { value: '4.5 Lcs', label: 'Equivalent to \nTrees Planted' },
+                { value: '4500+', label: 'MT of Carbon\nEmission Saved' },
               ].map((stat, i) => (
                 <motion.div
                   key={i}

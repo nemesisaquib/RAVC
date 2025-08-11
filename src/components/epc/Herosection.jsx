@@ -29,7 +29,7 @@ const Herosection = () => {
 
       {/* Content */}
       <div className="absolute inset-0 z-10 flex items-center px-4 md:px-8 lg:px-0">
-        <div className="ml-0 md:ml-10 lg:ml-[70px] max-w-full lg:w-[1000px] h-auto">
+        <div className="ml-0 md:ml-10 lg:ml-[70px] max-w-full lg:w-[1200px] h-auto">
 
           <motion.h1
             className="text-[24px] md:text-[30px] lg:text-[34px] leading-tight font-bold text-white"
@@ -48,7 +48,7 @@ const Herosection = () => {
             variants={fadeInUp}
             custom={0.3}
           >
-            RAVC delivers turnkey EPC projects from 1MW to 100MW+ — blending precision engineering, optimized
+            RAVC delivers turnkey EPC projects from Kilowatt to Megawatt — blending precision engineering, optimized
             procurement, and seamless construction for maximum plant efficiency.
           </motion.p>
 

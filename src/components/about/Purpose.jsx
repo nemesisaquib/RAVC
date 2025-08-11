@@ -70,9 +70,9 @@ export default function Purpose() {
 
       {/* Content */}
       <div className="relative flex flex-col items-center justify-center py-10 lg:py-0 h-auto lg:h-[457px]">
-        <div className="w-full max-w-[1333px] flex flex-col items-center justify-center gap-4 px-2">
+        <div className="w-full max-w-[1440px] flex flex-col items-center justify-center gap-4 px-2">
           <motion.h1
-            className="text-[24px] sm:text-[26px] md:text-[30px] lg:text-[34px] font-bold text-[#1f2937] leading-[1.4] max-w-[716px] text-center sm:text-left mx-auto sm:mx-0"
+            className="text-[24px] sm:text-[26px] md:text-[30px] lg:text-[34px] font-bold text-[#1f2937] leading-[1.4] max-w-[816px] text-center sm:text-left mx-auto sm:mx-0"
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
@@ -90,7 +90,7 @@ export default function Purpose() {
             viewport={{ once: true }}
             custom={1}
           >
-            At RAVC, leadership isn’t about titles — it’s about values. Our founding team comprises technocrats with deep industry experience, hands-on problem-solving ability, and an unshakeable belief in India’s energy potential.
+            At RAVC, Leadership isn’t about titles — it’s about values. Our Team comprises technocrats with deep industry experience, hands-on problem-solving ability, and an unshakeable belief in India’s energy potential.
           </motion.p>
         </div>
 
