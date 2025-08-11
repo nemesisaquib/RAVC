@@ -93,21 +93,21 @@ export default function Philosophy() {
                 {[
                   {
                     icon: <Leaf className="w-5 h-5 text-white" />,
-                    title: 'Carbon Offset Through Renewable Assets',
+                    title: 'Solar Infrastructure Impact',
                     text:
-                      'Our portfolio of renewable energy projects actively reduces carbon footprint across all operations and supply chains.',
+                      'Our projects have touched 250+ MW of solar power capacity, delivering clean energy across diverse sectors and regions.',
                   },
                   {
                     icon: <Users className="w-5 h-5 text-white" />,
-                    title: 'Rural Empowerment Initiatives',
+                    title: 'Environmental Equivalence',
                     text:
-                      'Solar pump adoption has transformed agricultural practices in 25+ rural communities, increasing yields by 40% on average.',
+                      'Generating renewable energy equivalent to planting 4.5 lakh trees, creating long-term ecological benefits for communities.',
                   },
                   {
                     icon: <Shield className="w-5 h-5 text-white" />,
-                    title: 'Zero-Harm Execution Protocol',
+                    title: 'Carbon Emissions Saved',
                     text:
-                      'Rigorous safety and environmental protection measures ensure sustainable execution on every project site worldwide.',
+                      'Over 4,500 MT of carbon emissions avoided through our sustainable energy solutions, reducing environmental impact at scale.',
                   },
                 ].map((item, i) => (
                   <motion.div
