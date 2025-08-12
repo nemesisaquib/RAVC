@@ -104,13 +104,13 @@ const ScopeofServices = () => {
       </div>
 
       {/* Background Image Decoration */}
-      <div className="absolute h-full w-full z-30">
+      {/* <div className="absolute h-full w-full z-30">
         <img
           src="/bg (2).png"
           alt="Decorative Icon"
           className="object-cover bg-transparent h-full w-full "
         />
-      </div>
+      </div> */}
 
       {/* Content */}
       <div className="relative z-10 px-4 sm:px-6 md:px-12 py-10 text-center max-w-[1400px] mx-auto">

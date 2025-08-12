@@ -61,7 +61,7 @@ const VisionMission = () => {
         className="hidden md:block absolute left-4 bottom-4 md:left-10 md:bottom-10 z-10"
       >
         <img
-          src="/about/WhatsApp Image 2025-05-27 at 2.06.00 PM 2.png"
+          src="/logo.svg"
           alt="Bottom Icon"
           className="w-[60px] h-[70px] md:w-[95.568px] md:h-[114px] object-contain"
         />

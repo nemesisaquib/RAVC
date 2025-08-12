@@ -20,7 +20,7 @@ export default function SolarStory() {
     <div className="relative flex items-center justify-center h-[400px] bg-[#FADE8B]/40 overflow-hidden">
 
       {/* Left Icon */}
-      <div className="hidden md:block absolute left-[-120px] top-40 z-30">
+      <div className="hidden md:block absolute left-[0px] top-40 z-30">
         <motion.img
           src="/logo3.svg"
           alt="Heart Icon"
