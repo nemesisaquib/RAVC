@@ -27,7 +27,7 @@ const SolarEnergyComponent = () => {
         className="hidden md:block absolute left-0 top-0 z-30 w-[100px] sm:w-[120px] md:w-[134px]"
       >
         <img
-          src="/about/WhatsApp Image 2025-05-27 at 2.06.00 PM 1 (2).svg"
+            src="/logo3.svg"
           alt="Heart Icon"
           className="object-contain w-full h-auto"
         />

@@ -33,9 +33,9 @@ export default function SolarStory() {
       </div>
 
       {/* Right Icon */}
-      <div className="absolute right-0 top-0 z-30">
+      <div className="absolute right-1 top-2 z-30">
         <motion.img
-          src="/logo/logo3.1.svg"
+        src="/logo3.svg"
           alt="Decorative Icon"
           className="object-cover bg-transparent"
           initial={{ opacity: 0, x: 50 }}

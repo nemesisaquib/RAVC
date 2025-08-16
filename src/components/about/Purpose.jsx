@@ -47,7 +47,7 @@ export default function Purpose() {
         variants={fadeFromLeft}
       >
         <img
-          src="/about/WhatsApp Image 2025-05-27 at 2.06.00 PM 1 (1).png"
+           src="/logo3.svg"
           className="object-cover bg-transparent"
           alt=""
         />
@@ -62,7 +62,7 @@ export default function Purpose() {
         variants={fadeFromRight}
       >
         <img
-          src="/about/WhatsApp Image 2025-05-27 at 2.06.00 PM 2 (1).png"
+            src="/logo3.svg"
           alt="Heart Icon"
           className="object-cover bg-transparent"
         />
