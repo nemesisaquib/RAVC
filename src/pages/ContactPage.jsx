@@ -44,8 +44,8 @@ const ContactPage = () => {
                     <div className="w-2 h-2 bg-[#CDCDCD] rounded-full"></div>
                 </div>
             </div>
-            <Department />
-            <div className="w-full flex justify-center my-10">
+            {/* <Department /> */}
+            {/* <div className="w-full flex justify-center my-10">
                 <div className="flex items-center w-full max-w-8xl">
                     <div className="w-2 h-2 bg-[#CDCDCD] rounded-full"></div>
                     <div className="flex-grow h-[1px] bg-[#CDCDCD]"></div>
@@ -58,7 +58,7 @@ const ContactPage = () => {
                     <div className="flex-grow h-[1px] bg-[#CDCDCD]"></div>
                     <div className="w-2 h-2 bg-[#CDCDCD] rounded-full"></div>
                 </div>
-            </div>
+            </div> */}
             <OnGround />
             <Map/>
             <StayConnected />

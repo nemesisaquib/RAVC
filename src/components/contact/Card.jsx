@@ -55,7 +55,7 @@ export default function ContactCards() {
         {
             icon: <FaEnvelope />,
             title: "Email",
-            content: "info@ravc.in",
+             content: ["info@ravc.in", "careers@ravc.in"],
             actionText: "Send Email",
             actionIcon: <FaEnvelope className="mr-1" />,
             actionHref: "mailto:info@ravc.in",
@@ -76,41 +76,53 @@ export default function ContactCards() {
         },
     ];
 
-    return (
-        <div
-            ref={ref}
-            className="w-full flex flex-wrap justify-center gap-4 p-4"
-        >
-            {cards.map((card, index) => (
-                <motion.div
-                    key={index}
-                    className={cardClasses}
-                    custom={index}
-                    variants={cardVariants}
-                    initial="hidden"
-                    animate={isInView ? "visible" : "hidden"}
-                >
-                    <div>
-                        <div className="text-[32px] font-[900] text-[#DAB369] mb-2">
-                            {card.icon}
-                        </div>
-                        <h3 className="text-[20px] font-[700] text-[#121212]">{card.title}</h3>
-                        <p className="text-[16px] font-[600] text-[#000000] mt-1">
-                            {card.content}
-                        </p>
-                    </div>
-                    <a
-                        href={card.actionHref}
-                        className="inline-flex items-center text-sm text-black font-semibold"
-                    >
-                        {card.actionIcon}
-                        <p className="text-[16px] font-[600] text-[#121212]">
-                            {card.actionText}
-                        </p>
-                    </a>
-                    <div className="absolute bottom-0 right-0 w-20 h-20 bg-[#F9D982D4] rounded-tl-full" />
-                </motion.div>
-            ))}
+return (
+  <div
+    ref={ref}
+    className="w-full flex flex-wrap justify-center gap-4 p-4"
+  >
+    {cards.map((card, index) => (
+      <motion.div
+        key={index}
+        className={cardClasses}
+        custom={index}
+        variants={cardVariants}
+        initial="hidden"
+        animate={isInView ? "visible" : "hidden"}
+      >
+        <div>
+          <div className="text-[32px] font-[900] text-[#DAB369] mb-2">
+            {card.icon}
+          </div>
+
+          <h3 className="text-[20px] font-[700] text-[#121212]">
+            {card.title}
+          </h3>
+
+          <div className="text-[16px] font-[600] text-[#000000] mt-1">
+            {Array.isArray(card.content) ? (
+              card.content.map((item, i) => (
+                <div key={i}>{item}</div>
+              ))
+            ) : (
+              card.content
+            )}
+          </div>
         </div>
-    );
+
+        <a
+          href={card.actionHref}
+          className="inline-flex items-center text-sm text-black font-semibold"
+        >
+          {card.actionIcon}
+          <p className="text-[16px] font-[600] text-[#121212]">
+            {card.actionText}
+          </p>
+        </a>
+
+        <div className="absolute bottom-0 right-0 w-20 h-20 bg-[#F9D982D4] rounded-tl-full" />
+      </motion.div>
+    ))}
+  </div>
+);
 }

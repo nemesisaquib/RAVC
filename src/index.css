@@ -1,11 +1,13 @@
 @import "tailwindcss";
-
+@import url(components/home/home.css);
 
 html, body {
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
   
 }
+
+
 
 
 

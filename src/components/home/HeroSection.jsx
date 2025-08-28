@@ -3,6 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
   visible: (i = 0) => ({
@@ -18,12 +19,12 @@ const fadeUp = {
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-screen md:h-[1057px] flex-shrink-0">
+    <div className="relative w-full  md:h-auto flex-shrink-0 mt-22 mt-[120px]">
       {/* Background Image */}
       <img
         src="/home/Website-Banner-01.webp"
         alt="Solar Panels"
-        className="w-full h-full object-cover"
+        className="h-auto max-w-full object-contain md:object-cover md:h-full "
       />
 
       {/* Overlay Content */}
