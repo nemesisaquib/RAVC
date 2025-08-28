@@ -97,7 +97,7 @@ const ScopeofServices = () => {
       {/* Right bottom icon */}
       <div className="absolute right-0 bottom-[140px] sm:bottom-[100px] md:bottom-[35px] z-30">
         <img
-          src="/logo/WhatsApp Image 2025-05-27 at 2.06.00 PM 2 (5).png"
+         src="/logo3.svg"
           alt="Decorative Icon"
           className="object-cover bg-transparent h-[144px] w-[130px] sm:h-[110px] sm:w-[100px] md:h-[144px] md:w-[130px]"
         />

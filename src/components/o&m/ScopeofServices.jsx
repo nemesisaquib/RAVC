@@ -70,18 +70,18 @@ const ScopeofServices = () => {
             {/* Logo */}
             <div className="hidden lg:block absolute right-0 bottom-[140px] sm:bottom-[100px] md:bottom-[35px] z-30">
                 <img
-                    src="/logo/WhatsApp Image 2025-05-27 at 2.06.00 PM 2 (5).png"
+                   src="/logo3.svg"
                     alt="Decorative Icon"
                     className="object-cover bg-transparent h-[144px] w-[130px] sm:h-[110px] sm:w-[100px] md:h-[144px] md:w-[130px]"
                 />
             </div>
-            <div className="hidden lg:block absolute h-full w-full z-30">
+            {/* <div className="hidden lg:block absolute h-full w-full z-30">
                 <img
                     src="/bg (2).png"
                     alt="Decorative Icon"
                     className="object-cover bg-transparent h-full w-full"
                 />
-            </div>
+            </div> */}
 
             {/* Content */}
             <div className="relative z-10 px-4 sm:px-6 md:px-12 py-10 text-center max-w-[1400px] mx-auto">

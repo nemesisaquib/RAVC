@@ -47,7 +47,7 @@ const SolarSystem = () => {
         className="hidden lg:block absolute left-0 top-0 z-30"
       >
         <img
-          src="/logo/WhatsApp Image 2025-05-27 at 2.06.00 PM 3.png"
+            src="/logo3.svg"
           alt="Decorative Icon"
           className="object-cover bg-transparent h-[144px] w-[130px]"
         />
@@ -62,7 +62,7 @@ const SolarSystem = () => {
         className="hidden lg:block absolute right-0 bottom-0 z-30"
       >
         <img
-          src="/logo/WhatsApp Image 2025-05-27 at 2.06.00 PM 2 (2).png"
+            src="/logo3.svg"
           alt="Decorative Icon"
           className="object-cover bg-transparent h-[144px] w-[130px]"
         />
