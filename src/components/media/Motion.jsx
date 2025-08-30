@@ -18,10 +18,10 @@ const Motion = () => {
         {/* Heading */}
         <div className="w-full">
           <h2 className="text-[24px] sm:text-[26px] md:text-[30px] lg:text-[34px] font-semibold text-[#D4A72C] mb-2">
-            Watch Our Work in Motion
+           Celebrating Our Achievements
           </h2>
           <p className="text-gray-700 text-[16px] md:text-[18px]">
-            Embed short-form content like:
+            Our journey marked by prestigious awards and featured stories across media.
           </p>
         </div>
 
@@ -56,11 +56,11 @@ const Motion = () => {
 
         {/* Button */}
         <div className="w-full">
-          <Link to="/video">
+          {/* <Link to="/video">
             <button className="inline-flex items-center gap-2 bg-white border border-black text-black px-6 py-3 rounded-md hover:bg-black hover:text-white transition-all font-semibold">
               See Full Gallery
             </button>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
