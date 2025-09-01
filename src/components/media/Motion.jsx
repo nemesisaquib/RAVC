@@ -1,6 +1,6 @@
-import React from "react";
-import { motion } from "framer-motion";
-import { Award, Trophy, Star } from "lucide-react";
+import React, { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Award, Trophy, Star, Calendar, MapPin, Filter, Search, ChevronRight, Sparkles, Crown, Medal, Zap } from "lucide-react";
 
 const imageData = [
   {
@@ -8,98 +8,140 @@ const imageData = [
     image: "/media/c.png",
     title: "UP Energy Icons 2025 : Solar Leadership Icon: Excellence in Solar Project Delivery",
     category: "Leadership Award",
-    year: "2025"
+    year: "2025",
+    location: "Uttar Pradesh",
+    type: "premium",
+    description: "Recognized for outstanding leadership in solar project delivery and innovation."
   },
   {
     id: 2,
     image: "/media/IMG_6384 (1).png",
     title: "Solar EPC Week 2024 India : Company Choice Awards",
     category: "Industry Recognition",
-    year: "2024"
+    year: "2024",
+    location: "National",
+    type: "gold",
+    description: "Voted by industry peers as the top choice for solar EPC services."
   },
   {
     id: 3,
     image: "/media/IMG_6386 copy_00000.png",
     title: "UTL Solar : High Sales Performance",
     category: "Performance Award",
-    year: "2024"
+    year: "2024",
+    location: "National",
+    type: "silver",
+    description: "Achieved exceptional sales performance in the solar energy sector."
   },
   {
     id: 4,
     image: "/media/IMG_6396.png",
     title: "C&I India Energy Leadership Awards 2022 : Best Service Provider - Contractor",
     category: "Service Excellence",
-    year: "2022"
+    year: "2022",
+    location: "National",
+    type: "premium",
+    description: "Awarded for excellence in commercial and industrial solar solutions."
   },
   {
     id: 5,
     image: "/media/IMG_6402_00000.png",
     title: "UTL Solar : UTL Top Performer 2024-25",
     category: "Top Performer",
-    year: "2024-25"
+    year: "2024-25",
+    location: "National",
+    type: "gold",
+    description: "Recognized as the top performer in UTL Solar's partner network."
   },
   {
     id: 6,
     image: "/media/IMG_6406.png",
     title: "EPS Energy Award – UP 2025 : Solar EPC Company of the Year - Utilities",
     category: "Company of the Year",
-    year: "2025"
+    year: "2025",
+    location: "Uttar Pradesh",
+    type: "premium",
+    description: "Named the leading solar EPC company for utility-scale projects."
   },
   {
     id: 7,
     image: "/media/IMG_6409.png",
     title: "State Leadership Awards Uttar Pradesh 2023 : Solar System Integrator of the Year (Rooftop) - Platinum",
     category: "Platinum Award",
-    year: "2023"
+    year: "2023",
+    location: "Uttar Pradesh",
+    type: "platinum",
+    description: "Highest honor for rooftop solar system integration excellence."
   },
   {
     id: 8,
     image: "/media/IMG_6412.png",
     title: "State Leadership Awards Uttar Pradesh 2024 : Solar EPC Company of the Year (Ground Mount) - Diamond",
     category: "Diamond Award",
-    year: "2024"
+    year: "2024",
+    location: "Uttar Pradesh",
+    type: "diamond",
+    description: "Diamond recognition for ground-mount solar project excellence."
   },
   {
     id: 10,
     image: "/media/IMG_6419 copy (1).png",
     title: "Indian Achievers' Award 2021 – 22 : Young Entrepreneur",
     category: "Entrepreneur Award",
-    year: "2021-22"
+    year: "2021-22",
+    location: "National",
+    type: "gold",
+    description: "Honored as a young entrepreneur driving innovation in renewable energy."
   },
   {
     id: 11,
     image: "/media/IMG_6423 copy.png",
     title: "Uttar Pradesh Annual Solar Awards 2024 : Solar EPC Company of the Year",
     category: "Annual Award",
-    year: "2024"
+    year: "2024",
+    location: "Uttar Pradesh",
+    type: "premium",
+    description: "Annual recognition for consistent excellence in solar EPC services."
   },
   {
     id: 12,
     image: "/media/IMG_6425 copy.png",
     title: "Industry Outlook Top Solar Industry Startups 2022",
     category: "Startup Recognition",
-    year: "2022"
+    year: "2022",
+    location: "National",
+    type: "silver",
+    description: "Featured among the top solar industry startups driving innovation."
   },
   {
     id: 14,
     image: "/media/IMG_6429_00000.png",
     title: "Solar Trail Blazers Conference and Awards",
     category: "Conference Award",
-    year: "2024"
+    year: "2024",
+    location: "National",
+    type: "gold",
+    description: "Recognized at the premier solar industry conference for trailblazing efforts."
   },
   {
     id: 16,
     image: "/media/IMG_6439.png",
     title: "Green Energy Business Conclave 2024",
     category: "Business Excellence",
-    year: "2024"
+    year: "2024",
+    location: "National",
+    type: "premium",
+    description: "Awarded for business excellence in the green energy sector."
   },
   {
     id: 19,
     image: "/media/IMG_6451_00000.png",
     title: "Uttar Pradesh Green Future Leadership Awards 2022",
     category: "Green Leadership",
-    year: "2022"
+    year: "2022",
+    location: "Uttar Pradesh",
+    type: "gold",
+    description: "Leadership recognition for driving green energy transformation."
   },
 ];
 
@@ -170,13 +212,13 @@ const Motion = () => {
               className="group"
               variants={itemVariants}
             >
-              <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100 hover:border-[#D4A72C]/30">
+              <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100 hover:border-[#D4A72C]/30 cursor-pointer">
                 {/* Image Container */}
                 <div className="relative overflow-hidden">
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="w-full h-[200px] object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-[200px] object-contain bg-gray-50 group-hover:scale-105 transition-transform duration-500"
                   />
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
