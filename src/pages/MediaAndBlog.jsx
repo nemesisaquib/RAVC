@@ -46,7 +46,7 @@ const MediaAndBlog = () => {
             </div> 
 
             
-            <MediaInquiry />
+            {/* <MediaInquiry /> */}
             <Footer />
         </>
     )

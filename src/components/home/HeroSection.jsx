@@ -22,13 +22,13 @@ const HeroSection = () => {
     <div className="relative w-full  md:h-auto flex-shrink-0 mt-22 mt-[120px]">
       {/* Background Image */}
       <img
-        src="/home/Website-Banner-01.webp"
+        src="/home/Rectangle.svg"
         alt="Solar Panels"
-        className="h-auto max-w-full object-contain md:object-cover md:h-full "
+        className="w-full h-[420px] sm:h-[500px] md:h-[852px] object-cover "
       />
 
       {/* Overlay Content */}
-      <div className=" hidden absolute inset-0 flex flex-col justify-center items-start px-4 sm:px-8 md:px-20 lg:px-32 text-white bg-black/30">
+      <div className=" absolute inset-0 flex flex-col justify-center items-start px-4 sm:px-8 md:px-20 lg:px-32 text-white bg-black/30">
         <motion.h1
           className="uppercase font-open-sans font-bold text-[clamp(18px,5vw,64px)] leading-tight text-[#F9D982] max-w-[1037px] "
           initial="hidden"
