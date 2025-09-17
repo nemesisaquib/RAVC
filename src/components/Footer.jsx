@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import privacypolicy from "../pages/PrivacyPolicy";
 
 const socialLinks = [
   { icon: FaFacebookF, url: "https://www.facebook.com/ravcsolutions/" },
@@ -118,19 +119,25 @@ const Footer = () => {
         <div>
           <h3 className="font-bold text-[18px] mb-2">Contact</h3>
           <ul className="space-y-3">
-            <li className="flex items-center gap-2">
-              <a href="tel:+918874545556" className="flex items-center gap-2 hover:underline">
+            <li>
+              <a
+                href="tel:+918874545556"
+                className="flex items-center gap-2 hover:underline"
+              >
                 <FaPhoneAlt className="w-[25px] h-[25px] bg-[#d6a84f] text-white p-1.5 rounded-full" />
                 +91 8874545556
               </a>
             </li>
-            <li className="flex items-center gap-2">
-              <a href="mailto:info@ravc.in" className="flex items-center gap-2 hover:underline">
+            <li>
+              <a
+                href="mailto:info@ravc.in"
+                className="flex items-center gap-2 hover:underline"
+              >
                 <FaEnvelope className="w-[25px] h-[25px] bg-[#d6a84f] text-white p-1.5 rounded-full" />
                 info@ravc.in
               </a>
             </li>
-            <li className="flex items-start gap-2">
+            <li>
               <a
                 href="https://www.google.com/maps?q=Bhavya+Corporate+Tower,+Vibhuti+Khand,+Gomti+Nagar,+Lucknow,+Uttar+Pradesh+226010"
                 target="_blank"
@@ -157,16 +164,24 @@ const Footer = () => {
         custom={1.5}
       >
         <div className="flex gap-4 font-medium text-sm">
-          <span className="hover:underline cursor-pointer">Privacy Policy</span>
-          <span className="hover:underline cursor-pointer">Terms and condition </span>
+          <Link to="/privacypolicy" className="hover:underline cursor-pointer">
+            Privacy Policy
+          </Link>
+          <Link to="/terms" className="hover:underline cursor-pointer">
+            Terms and Conditions
+          </Link>
         </div>
         <div className="text-[#e5a844] font-medium text-sm">
-          © 2025 RAVC Solutions Pvt Ltd. All Rights Reserved.
+          © {new Date().getFullYear()} RAVC Solutions Pvt Ltd. All Rights Reserved.
         </div>
         <div className="text-[#e5a844] font-medium text-sm">
-       <a href="https://www.sakhsham.com" target="_blank" rel="noopener noreferrer">
-    Made By Sakhsham
-  </a>
+          <a
+            href="https://www.sakhsham.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Made By Sakhsham
+          </a>
         </div>
       </motion.div>
     </motion.div>
