@@ -46,7 +46,7 @@ export default function Philosophy() {
               </h1>
 
               <p className="text-white text-[16px] sm:text-[18px] lg:text-[22px] sm:text-base leading-relaxed opacity-90">
-                Every RAVC project is designed to reduce emissions, enhance efficiency, and uplift lives. From PPC to IPP & Public to Government Sustainability is not just a motto, we align our services with Indian sustainability goals .
+                Every RAVC project is designed to reduce emissions, enhance efficiency, and uplift lives. From PPC to IPP & Public to Government Sustainability is not just a motto, we align our services with  India’s sustainability goals .
               </p>
             </div>
           </motion.div>
