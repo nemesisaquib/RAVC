@@ -67,7 +67,7 @@ export default function Philosophy() {
               transition={{ staggerChildren: 0.15 }}
             >
               {[
-                { value: '250+', label: 'MV Solar \nPower Touched.' },
+                { value: '275+', label: 'MW solar  \npower delivered.' },
                 { value: '4.5 Lcs', label: 'Equivalent to \nTrees Planted' },
                 { value: '4500+', label: 'MT of Carbon\nEmission Saved' },
               ].map((stat, i) => (
@@ -95,7 +95,7 @@ export default function Philosophy() {
                     icon: <Leaf className="w-5 h-5 text-white" />,
                     title: 'Solar Infrastructure Impact',
                     text:
-                      'Our projects have touched 250+ MW of solar power capacity, delivering clean energy across diverse sectors and regions.',
+                      'Our projects have touched 275+ MW of power delivered capacity, delivering clean energy across diverse sectors and regions.',
                   },
                   {
                     icon: <Users className="w-5 h-5 text-white" />,
