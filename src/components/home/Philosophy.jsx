@@ -1,7 +1,7 @@
-import React from 'react';
-import { ChevronRight, Leaf, Users, Shield } from 'lucide-react';
-import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import React from "react";
+import { ChevronRight, Leaf, Users, Shield } from "lucide-react";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export default function Philosophy() {
   const fadeUp = {
@@ -19,7 +19,6 @@ export default function Philosophy() {
         transition={{ staggerChildren: 0.2 }}
       >
         <div className="flex flex-col lg:flex-row w-full h-full">
-          
           {/* Left Section */}
           <motion.div
             className="bg-[#DAB369] p-6 sm:p-10 lg:p-12 flex flex-col justify-center relative w-full lg:max-w-[480px]"
@@ -46,7 +45,10 @@ export default function Philosophy() {
               </h1>
 
               <p className="text-white text-[16px] sm:text-[18px] lg:text-[22px] sm:text-base leading-relaxed opacity-90">
-                Every RAVC project is designed to reduce emissions, enhance efficiency, and uplift lives. From PPC to IPP & Public to Government Sustainability is not just a motto, we align our services with  India’s sustainability goals .
+                Every RAVC project is designed to reduce emissions, enhance
+                efficiency, and uplift lives. From PPA to IPP & Public, to
+                Government Sustainability is not just a motto, we align our
+                services with India’s sustainability goals .
               </p>
             </div>
           </motion.div>
@@ -67,17 +69,21 @@ export default function Philosophy() {
               transition={{ staggerChildren: 0.15 }}
             >
               {[
-                { value: '275+', label: 'MW solar  \npower delivered.' },
-                { value: '4.5 Lcs', label: 'Equivalent to \nTrees Planted' },
-                { value: '4500+', label: 'MT of Carbon\nEmission Saved' },
+                { value: "275+", label: "MW solar  \npower delivered." },
+                { value: "4.5 Lcs", label: "Equivalent to \nTrees Planted" },
+                { value: "4500+", label: "MT of Carbon\nEmission Saved" },
               ].map((stat, i) => (
                 <motion.div
                   key={i}
                   className="bg-[#FEF7E6] h-[110px] sm:h-[130px] flex flex-col justify-center items-center text-center rounded-xl w-full"
                   variants={fadeUp}
                 >
-                  <div className="text-2xl sm:text-3xl font-bold text-[#DAB369] mb-1">{stat.value}</div>
-                  <div className="text-gray-600 text-xs sm:text-sm font-semibold whitespace-pre-line">{stat.label}</div>
+                  <div className="text-2xl sm:text-3xl font-bold text-[#DAB369] mb-1">
+                    {stat.value}
+                  </div>
+                  <div className="text-gray-600 text-xs sm:text-sm font-semibold whitespace-pre-line">
+                    {stat.label}
+                  </div>
                 </motion.div>
               ))}
             </motion.div>
@@ -88,26 +94,25 @@ export default function Philosophy() {
               variants={fadeUp}
               transition={{ delay: 0.4 }}
             >
-              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">Our Sustainable Practices</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
+                Our Sustainable Practices
+              </h2>
               <div className="space-y-6">
                 {[
                   {
                     icon: <Leaf className="w-5 h-5 text-white" />,
-                    title: 'Solar Infrastructure Impact',
-                    text:
-                      'Our projects have touched 275+ MW of power delivered capacity, delivering clean energy across diverse sectors and regions.',
-                  },
-                  {
-                    icon: <Users className="w-5 h-5 text-white" />,
-                    title: 'Environmental Equivalence',
-                    text:
-                      'Generating renewable energy equivalent to planting 4.5 lakh trees, creating long-term ecological benefits for communities.',
+                    title: "Solar Infrastructure Impact",
+                    text: "Our projects have touched 275+ MW of power delivered capacity, delivering clean energy across diverse sectors and regions.",
                   },
                   {
                     icon: <Shield className="w-5 h-5 text-white" />,
-                    title: 'Carbon Emissions Saved',
-                    text:
-                      'Over 4,500 MT of carbon emissions avoided through our sustainable energy solutions, reducing environmental impact at scale.',
+                    title: "Carbon Emissions Saved",
+                    text: "Over 4,500 MT of carbon emissions avoided through our sustainable energy solutions, reducing environmental impact at scale.",
+                  },
+                  {
+                    icon: <Users className="w-5 h-5 text-white" />,
+                    title: "Environmental Equivalence",
+                    text: "Generating renewable energy equivalent to planting 450K trees, creating long-term ecological benefits for communities.",
                   },
                 ].map((item, i) => (
                   <motion.div
@@ -120,8 +125,12 @@ export default function Philosophy() {
                       {item.icon}
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900 mb-1">{item.title}</h3>
-                      <p className="text-gray-600 text-sm leading-relaxed">{item.text}</p>
+                      <h3 className="font-semibold text-gray-900 mb-1">
+                        {item.title}
+                      </h3>
+                      <p className="text-gray-600 text-sm leading-relaxed">
+                        {item.text}
+                      </p>
                     </div>
                   </motion.div>
                 ))}

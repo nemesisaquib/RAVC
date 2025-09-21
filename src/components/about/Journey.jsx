@@ -17,18 +17,18 @@ export default function Journey() {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.3 }}
           viewport={{ once: true }}
-          className="hidden md:block absolute right-4 bottom-4 sm:right-6 sm:bottom-6 lg:right-0 lg:bottom-0 z-30"
+          className="hidden md:block absolute right-4 bottom-4 sm:right-6 sm:bottom-6 lg:right-3 lg:bottom-0 z-30"
         >
           <img
             src="/about/WhatsApp Image 2025-05-27 at 2.06.00 PM 1.svg"
             alt="Heart Icon"
-            className="object-cover bg-transparent w-[100px] h-[100px] sm:w-[130px] sm:h-[130px] md:w-[150px] md:h-[150px] lg:w-[184px] lg:h-[180px]"
+            className="object-cover bg-transparent w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] md:w-[120px] md:h-[120px] lg:w-[125px] lg:h-[125px]"
           />
         </motion.div>
 
         {/* Content Section */}
         <motion.div
-          className="relative z-10 w-full text-left"
+          className="relative z-10 w-full text-left px-[5%]"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}

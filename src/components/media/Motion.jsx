@@ -6,7 +6,7 @@ const imageData = [
   {
     id: 1,
     image: "/media/c.png",
-    title: "UP Energy Icons 2025 : Solar Leadership Icon: Excellence in Solar Project Delivery",
+    title: "UP Energy Icons 2025 : Solar Leadership Icon",
     category: "Leadership Award",
     year: "2025",
     location: "Uttar Pradesh",
@@ -16,7 +16,7 @@ const imageData = [
   {
     id: 2,
     image: "/media/IMG_6384 (1).png",
-    title: "Solar EPC Week 2024 India : Company Choice Awards",
+    title: "Solar EPC Week 2024 India ",
     category: "Industry Recognition",
     year: "2024",
     location: "National",
@@ -26,7 +26,7 @@ const imageData = [
   {
     id: 3,
     image: "/media/IMG_6386 copy_00000.png",
-    title: "UTL Solar : High Sales Performance",
+    title: "UTL Solar",
     category: "Performance Award",
     year: "2024",
     location: "National",
@@ -36,7 +36,7 @@ const imageData = [
   {
     id: 4,
     image: "/media/IMG_6396.png",
-    title: "C&I India Energy Leadership Awards 2022 : Best Service Provider - Contractor",
+    title: "C&I India Energy Leadership Awards 2022",
     category: "Service Excellence",
     year: "2022",
     location: "National",
@@ -46,7 +46,7 @@ const imageData = [
   {
     id: 5,
     image: "/media/IMG_6402_00000.png",
-    title: "UTL Solar : UTL Top Performer 2024-25",
+    title: "UTL Solar",
     category: "Top Performer",
     year: "2024-25",
     location: "National",
@@ -56,7 +56,7 @@ const imageData = [
   {
     id: 6,
     image: "/media/IMG_6406.png",
-    title: "EPS Energy Award – UP 2025 : Solar EPC Company of the Year - Utilities",
+    title: "EPS Energy Award – UP 2025",
     category: "Company of the Year",
     year: "2025",
     location: "Uttar Pradesh",
@@ -66,7 +66,7 @@ const imageData = [
   {
     id: 7,
     image: "/media/IMG_6409.png",
-    title: "State Leadership Awards Uttar Pradesh 2023 : Solar System Integrator of the Year (Rooftop) - Platinum",
+    title: "State Leadership Awards Uttar Pradesh 2023",
     category: "Platinum Award",
     year: "2023",
     location: "Uttar Pradesh",
@@ -76,7 +76,7 @@ const imageData = [
   {
     id: 8,
     image: "/media/IMG_6412.png",
-    title: "State Leadership Awards Uttar Pradesh 2024 : Solar EPC Company of the Year (Ground Mount) - Diamond",
+    title: "State Leadership Awards Uttar Pradesh 2024",
     category: "Diamond Award",
     year: "2024",
     location: "Uttar Pradesh",
@@ -86,7 +86,7 @@ const imageData = [
   {
     id: 10,
     image: "/media/IMG_6419 copy (1).png",
-    title: "Indian Achievers' Award 2021 – 22 : Young Entrepreneur",
+    title: "Indian Achievers' Award 2021 – 22 ",
     category: "Entrepreneur Award",
     year: "2021-22",
     location: "National",
@@ -96,7 +96,7 @@ const imageData = [
   {
     id: 11,
     image: "/media/IMG_6423 copy.png",
-    title: "Uttar Pradesh Annual Solar Awards 2024 : Solar EPC Company of the Year",
+    title: "Uttar Pradesh Annual Solar Awards 2024",
     category: "Annual Award",
     year: "2024",
     location: "Uttar Pradesh",
@@ -240,7 +240,7 @@ const Motion = () => {
 
                 {/* Content */}
                 <div className="p-5">
-                  <h3 className="text-[15px] font-semibold text-[#121212] leading-tight group-hover:text-[#D4A72C] transition-colors duration-300 line-clamp-3">
+                  <h3 className="text-center text-[15px] font-semibold text-[#121212] leading-tight group-hover:text-[#D4A72C] transition-colors duration-300 line-clamp-3">
                     {item.title}
                   </h3>
                   

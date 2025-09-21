@@ -20,11 +20,11 @@ export default function SolarStory() {
     <div className="relative flex items-center justify-center h-[400px] bg-[#FADE8B]/40 overflow-hidden">
 
       {/* Left Icon */}
-      <div className="hidden md:block absolute left-[0px] top-40 z-30">
+      <div className="hidden md:block absolute left-[10px] bottom-0 z-30">
         <motion.img
           src="/logo3.svg"
           alt="Heart Icon"
-          className="object-cover bg-transparent w-[291px] h-[256px]"
+          className="object-cover bg-transparent w-[180px] h-[180px]"
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
@@ -46,7 +46,7 @@ export default function SolarStory() {
       </div>
 
       {/* Main Content */}
-      <div className="text-center px-8">
+      <div className="text-center px-8 px-[5%]">
         <motion.h2
           className="text-gray-800 font-bold text-[24px] sm:text-[26px] md:text-[30px] lg:text-[34px] leading-tight mb-8"
           style={{

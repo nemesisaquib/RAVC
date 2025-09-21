@@ -24,7 +24,7 @@ const SolarEnergyComponent = () => {
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="hidden md:block absolute left-0 top-0 z-30 w-[100px] sm:w-[120px] md:w-[134px]"
+        className="hidden md:block absolute left-1 top-2 z-30 w-[100px] sm:w-[120px] md:w-[134px]"
       >
         <img
             src="/logo3.svg"
@@ -35,7 +35,7 @@ const SolarEnergyComponent = () => {
 
       {/* Content Container */}
       <motion.div
-        className="w-full text-white text-left z-10"
+        className="w-full text-white text-left z-10 px-[5%]"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -61,7 +61,7 @@ const SolarEnergyComponent = () => {
         </motion.p>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 mb-6">
           {[
             { title: 'EPC Development', detail: 'Ensuring Performance Optimization and reduce operational cost for better ROI.' },
             { title: 'IPP', detail: 'Identify energy-saving opportunities and improve efficiency across systems.' },

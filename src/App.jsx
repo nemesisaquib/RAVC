@@ -25,6 +25,7 @@ import { FaArrowUp } from 'react-icons/fa';
 import ReactScrollToTop from "react-scroll-to-top";
 
 import React, { useState, useEffect } from 'react';
+import PrivacyPolicy from './pages/PrivacyPolicy'
 
 
 function App() {
@@ -68,6 +69,7 @@ function App() {
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/blog-insights' element={<BlogTextPage />} />
         <Route path='/media-higlight' element={<MediaHiglight />} />
+        <Route path='/privacy-policy' element={<PrivacyPolicy />} />
          <Route path='/coming-soon' element={<Comeing />} />
 <Route path="*" element={<NotFound />} />
 

@@ -53,12 +53,12 @@ export default function Startup() {
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mb-8">
             {[
               {
-                number: '250+',
-                text: 'MW of Solar infrastructure touched',
+                number: ' 360',
+                text: 'MW of Solar infrastructure Delivered',
               },
               {
-                number: '26+',
-                text: 'Pan-India execution\nfootprint',
+                number: '275',
+                text: 'MW Under Execution.',
               },
               {
                 number: '2028',
@@ -67,7 +67,7 @@ export default function Startup() {
             ].map((stat, index) => (
               <motion.div
                 key={index}
-                className="flex-1 border border-gray-300 rounded-[6px] flex flex-col justify-center items-center text-center p-4 min-w-[180px] h-[160px]"
+                className="flex-1 border border-gray-300 rounded-[6px] flex flex-col justify-start items-center text-center p-4 min-w-[180px] h-[160px]"
                 variants={fadeUp}
                 custom={index + 2}
               >

@@ -27,7 +27,7 @@ export default function WhatWeBuild() {
                 </div>
 
                 {/* Cards Section */}
-                <div className="w-full mt-6">
+                <div className="w-full mt-6 px-[5%]">
                     <div className="flex space-x-4 overflow-x-auto pb-4 scrollbar-custom">
                         {[
                                     {
@@ -59,7 +59,7 @@ export default function WhatWeBuild() {
                         ].map((item, idx) => (
                             <div
                                 key={idx}
-                                className="flex-shrink-0 rounded-xl border border-yellow-400 border-opacity-30 relative overflow-hidden w-[90%] sm:w-[600px] md:w-[700px] lg:w-[800px] h-[350px]"
+                                className="flex-shrink-0 rounded-xl border border-yellow-400 border-opacity-30 relative overflow-hidden w-[90%] sm:w-[400px] md:w-[450px] lg:w-[450px] h-[350px]"
                                 style={{
                                     // backgroundImage: "url('/home/bg-card.jpg')",
                                     backgroundImage: `url('${item.bg}')`,

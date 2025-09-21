@@ -98,12 +98,16 @@ const VisionMission = () => {
                 <div className="w-[50px] h-[50px] rounded bg-[#F9D98233] flex items-center justify-center">
                   <LuEye className="text-[#DAB369]" size={24} />
                 </div>
-                <h3 className="text-[#DAB369] text-[22px] md:text-[24px] font-bold" style={{ fontFamily: '"Open Sans", sans-serif' }}>
+                <h3
+                  className="text-[#DAB369] text-[22px] md:text-[24px] font-bold"
+                  style={{ fontFamily: '"Open Sans", sans-serif' }}
+                >
                   Vision
                 </h3>
               </div>
               <p className="text-[18px] md:text-[22px] leading-[30px] md:leading-[34px]">
-                To power India’s sustainable future as one family, delivering unmatched quality and efficiency.
+                To power India’s sustainable future as one family, delivering
+                unmatched quality and efficiency.
               </p>
             </div>
           </motion.div>
@@ -122,16 +126,28 @@ const VisionMission = () => {
                 <div className="w-[50px] h-[50px] rounded bg-[#F9D98233] flex items-center justify-center">
                   <LuTarget className="text-[#DAB369]" size={24} />
                 </div>
-                <h3 className="text-[#DAB369] text-[22px] md:text-[24px] font-bold" style={{ fontFamily: '"Open Sans", sans-serif' }}>
+                <h3
+                  className="text-[#DAB369] text-[22px] md:text-[24px] font-bold"
+                  style={{ fontFamily: '"Open Sans", sans-serif' }}
+                >
                   Mission
                 </h3>
               </div>
-              <ul className="list-disc list-inside space-y-2 text-[18px] md:text-[22px] leading-[30px] md:leading-[34px]">
-                <li>
-                  To create Sustainable Development for all by providing professional services and remarkable efficiency across all sectors.
+              <ul className="space-y-2 text-[18px] md:text-[22px] leading-[30px] md:leading-[34px]">
+                <li className="flex">
+                  <span className="mr-2">•</span>
+                  <span>
+                    To create Sustainable Development for all by providing
+                    professional services and remarkable efficiency across all
+                    sectors.
+                  </span>
                 </li>
-                <li>
-                  Care and growth for the environment, society, employees, and shareholders.
+                <li className="flex">
+                  <span className="mr-2">•</span>
+                  <span>
+                    Care and growth for the environment, society, employees, and
+                    shareholders.
+                  </span>
                 </li>
               </ul>
             </div>

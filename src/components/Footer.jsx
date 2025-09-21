@@ -69,11 +69,12 @@ const Footer = () => {
         </div>
       </motion.div>
 
-      <hr className="border-gray-300 mb-6" />
+      {/* First HR line - constrained to content width */}
+      <hr className="border-gray-300 mb-6 mx-auto w-full max-w-[90%]" />
 
       {/* Grid Content */}
       <motion.div
-        className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm"
+        className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm px-[5%]"
         variants={fadeUp}
         custom={1.2}
       >
@@ -155,7 +156,8 @@ const Footer = () => {
         </div>
       </motion.div>
 
-      <hr className="border-gray-300 mt-6 mb-3" />
+      {/* Second HR line - constrained to content width */}
+      <hr className="border-gray-300 mt-6 mb-3 mx-auto w-full max-w-[90%]" />
 
       {/* Bottom Section */}
       <motion.div
@@ -164,7 +166,7 @@ const Footer = () => {
         custom={1.5}
       >
         <div className="flex gap-4 font-medium text-sm">
-          <Link to="/privacypolicy" className="hover:underline cursor-pointer">
+          <Link to="/privacy-policy" className="hover:underline cursor-pointer">
             Privacy Policy
           </Link>
           <Link to="/terms" className="hover:underline cursor-pointer">
@@ -172,7 +174,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="text-[#e5a844] font-medium text-sm">
-          © {new Date().getFullYear()} RAVC Solutions Pvt Ltd. All Rights Reserved.
+          © {new Date().getFullYear()} RAVC. All Rights Reserved.
         </div>
         <div className="text-[#e5a844] font-medium text-sm">
           <a
