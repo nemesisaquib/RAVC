@@ -47,13 +47,13 @@ export default function StayConnected() {
             <FaLinkedinIn className="text-[#0A66C2]" size={24} />
           </a>
 
-          <a href="https://www.instagram.com/ravcsolutions/?hl=en" className="bg-white rounded-full p-2 hover:scale-110 transition">
+          <a href="https://www.instagram.com/ravc.group/" className="bg-white rounded-full p-2 hover:scale-110 transition">
             <FaInstagram className="text-[#833AB4]" size={24} />
           </a>
-          <a href="#" className="bg-white rounded-full p-2 hover:scale-110 transition">
+          <a href="https://www.youtube.com/@ravcgroup" className="bg-white rounded-full p-2 hover:scale-110 transition">
             <FaYoutube className="text-[#FF0000]" size={24} />
           </a>
-          <a href="#" className="bg-white rounded-full p-2 hover:scale-110 transition">
+          <a href="https://wa.me/918874545556" className="bg-white rounded-full p-2 hover:scale-110 transition">
             <FaWhatsapp className="text-[#25D366]" size={24} />
           </a>
         </motion.div>

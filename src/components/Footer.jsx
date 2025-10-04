@@ -14,7 +14,7 @@ import privacypolicy from "../pages/PrivacyPolicy";
 
 const socialLinks = [
   { icon: FaFacebookF, url: "https://www.facebook.com/ravcgroup" },
-  { icon: FaWhatsapp, url: "https://wa.me/yourwhatsapplink" },
+  { icon: FaWhatsapp, url: "https://wa.me/918874545556" },
   { icon: FaInstagram, url: "https://www.instagram.com/ravc.group/" },
   { icon: FaYoutube , url: "https://www.youtube.com/@ravcgroup" },
 ];
