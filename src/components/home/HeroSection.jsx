@@ -3,7 +3,6 @@ import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
   visible: (i = 0) => ({
@@ -19,87 +18,51 @@ const fadeUp = {
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full  md:h-auto flex-shrink-0 mt-22 mt-[120px]">
+    <div className="flex items-center flex-col relative gap-4 w-full md:h-auto flex-shrink-0 mt-22 pt-[50px] bg-[#fdf2d2] min-h-[80vh] pb-[200px] md:pb-0">
       {/* Background Image */}
-      <img
-        src="/home/Rectangle.svg"
-        alt="Solar Panels"
-        className="w-full h-[420px] sm:h-[500px] md:h-[852px] object-cover "
-      />
 
       {/* Overlay Content */}
-      <div className=" absolute inset-0 flex flex-col justify-center items-start px-4 sm:px-8 md:px-20 lg:px-32 text-white bg-black/30">
+      <div className="gap-4 flex flex-col justify-center items-start px-4 sm:px-8 md:px-20 lg:px-32 text-white w-full z-10 relative">
         <motion.h1
-          className="uppercase font-open-sans font-bold text-[clamp(18px,5vw,64px)] leading-tight text-[#F9D982] max-w-[1037px] "
+          className="uppercase font-open-sans font-bold text-[24px] sm:text-[30px] text-center leading-tight text-[#F9D982] w-full"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeUp}
           custom={0}
         >
-          HARNESSING INNOVATIVE <br />
-          SOLUTIONS POWERING VIKSIT <br />
-          BHARAT ENERGY NEEDS
+          HARNESSING INNOVATIVE SOLUTIONS POWERING VIKSIT BHARAT ENERGY NEEDS
         </motion.h1>
-
-        <motion.p
-          className="mt-4 text-[clamp(16px,2vw,22px)] leading-[1.6] max-w-[831px] text-white"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeUp}
-          custom={1}
-        >
-          We are not just enabling Renewable Energy infrastructure, but enabling
-          energy security and sustainable models for communities across India.
-        </motion.p>
-
-        <motion.div
-          className="flex flex-wrap gap-4 mt-6"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeUp}
-          custom={2}
-        >
-          {/* Explore Our Vision Button */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              delay: 0.75,
-              type: "spring",
-              stiffness: 80,
-              damping: 12,
-            }}
+        
+        {/* Changed to flex-col for mobile, flex-row for larger screens */}
+        <motion.div className="flex flex-col lg:flex-row items-center justify-between gap-4 w-full">
+          <motion.p
+            className="mt-4 text-[16px] sm:text-[18px] text-center  leading-[1.6] text-black flex-1 font-semibold "
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeUp}
+            custom={1}
           >
-            <Link
-              to={{ pathname: "/about", hash: "#vision-mission" }}
-              className="inline-flex px-6 py-3 justify-center items-center gap-2 border border-[#DAB369] text-white font-medium rounded-xl bg-[#DAB369] hover:text-black transition text-sm md:text-base"
-            >
-              Explore Our Vision <FaArrowRight className="w-4 h-4" />
-            </Link>
-          </motion.div>
-
-          {/* Discover Our Services Button */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              delay: 0.9,
-              type: "spring",
-              stiffness: 80,
-              damping: 12,
-            }}
+            We are not just enabling Renewable Energy infrastructure, but
+            enabling energy security and sustainable models for communities
+            across India.
+          </motion.p>
+          <Link
+            to={{ pathname: "/about", hash: "#vision-mission" }}
+            className="inline-flex px-6 py-3 justify-center items-center gap-2 border border-[#DAB369] text-white font-medium rounded-xl bg-[#DAB369] hover:text-black transition text-sm md:text-base mt-4 lg:mt-0 z-20 relative"
           >
-            <Link to={"/services"}>
-              <button className="inline-flex px-6 py-3 cursor-pointer justify-center items-center gap-2 border border-white text-white font-medium rounded-xl hover:bg-white hover:text-black transition text-sm md:text-base">
-                Discover Our Services <FaArrowRight className="w-4 h-4" />
-              </button>
-            </Link>
-          </motion.div>
+            Explore Our Vision <FaArrowRight className="w-4 h-4" />
+          </Link>
         </motion.div>
       </div>
+      
+      {/* Image at the bottom with proper z-index */}
+      <img
+        src="/home/Rectangle.svg"
+        alt="Solar Panels"
+        className="w-[85%] h-[300px] sm:h-[400px] bottom-0 object-cover rounded-3xl absolute z-0"
+      />
     </div>
   );
 };

@@ -3,20 +3,20 @@ import {
   FaFacebookF,
   FaWhatsapp,
   FaInstagram,
-  FaLinkedinIn,
   FaPhoneAlt,
   FaEnvelope,
   FaMapMarkerAlt,
+  FaYoutube,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import privacypolicy from "../pages/PrivacyPolicy";
 
 const socialLinks = [
-  { icon: FaFacebookF, url: "https://www.facebook.com/ravcsolutions/" },
+  { icon: FaFacebookF, url: "https://www.facebook.com/ravcgroup" },
   { icon: FaWhatsapp, url: "https://wa.me/yourwhatsapplink" },
-  { icon: FaInstagram, url: "https://www.instagram.com/ravcsolutions/?hl=en" },
-  { icon: FaLinkedinIn, url: "https://www.linkedin.com/company/ravcsolutions/" },
+  { icon: FaInstagram, url: "https://www.instagram.com/ravc.group/" },
+  { icon: FaYoutube , url: "https://www.youtube.com/@ravcgroup" },
 ];
 
 const fadeUp = {
