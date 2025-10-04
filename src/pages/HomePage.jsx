@@ -17,7 +17,7 @@ function HomePage() {
     <>
       <Header />
       <div className="flex items-center gap-12 flex-col w-full">
-        <HeroSection />
+        {/* <HeroSection /> */}
         <Purpose />
       </div>
 

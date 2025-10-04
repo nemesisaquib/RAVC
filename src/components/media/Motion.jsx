@@ -5,7 +5,7 @@ import { Award, Trophy, Star, Calendar, MapPin, Filter, Search, ChevronRight, Sp
 const imageData = [
   {
     id: 1,
-    image: "/media/c.png",
+    image: "/media/Webp/c.webp",
     title: "UP Energy Icons 2025 : Solar Leadership Icon",
     category: "Leadership Award",
     year: "2025",
@@ -15,7 +15,7 @@ const imageData = [
   },
   {
     id: 2,
-    image: "/media/IMG_6384 (1).png",
+    image: "/media/Webp/IMG_6384 (1).webp",
     title: "Solar EPC Week 2024 India ",
     category: "Industry Recognition",
     year: "2024",
@@ -25,7 +25,7 @@ const imageData = [
   },
   {
     id: 3,
-    image: "/media/IMG_6386 copy_00000.png",
+    image: "/media/Webp/IMG_6386 copy_00000.webp",
     title: "UTL Solar",
     category: "Performance Award",
     year: "2024",
@@ -35,7 +35,7 @@ const imageData = [
   },
   {
     id: 4,
-    image: "/media/IMG_6396.png",
+    image: "/media/Webp/IMG_6396.webp",
     title: "C&I India Energy Leadership Awards 2022",
     category: "Service Excellence",
     year: "2022",
@@ -45,7 +45,7 @@ const imageData = [
   },
   {
     id: 5,
-    image: "/media/IMG_6402_00000.png",
+    image: "/media/Webp/IMG_6402_00000.webp",
     title: "UTL Solar",
     category: "Top Performer",
     year: "2024-25",
@@ -55,7 +55,7 @@ const imageData = [
   },
   {
     id: 6,
-    image: "/media/IMG_6406.png",
+    image: "/media/Webp/IMG_6406.webp",
     title: "EPS Energy Award – UP 2025",
     category: "Company of the Year",
     year: "2025",
@@ -65,7 +65,7 @@ const imageData = [
   },
   {
     id: 7,
-    image: "/media/IMG_6409.png",
+    image: "/media/Webp/IMG_6409.webp",
     title: "State Leadership Awards Uttar Pradesh 2023",
     category: "Platinum Award",
     year: "2023",
@@ -75,7 +75,7 @@ const imageData = [
   },
   {
     id: 8,
-    image: "/media/IMG_6412.png",
+    image: "/media/Webp/IMG_6412.webp",
     title: "State Leadership Awards Uttar Pradesh 2024",
     category: "Diamond Award",
     year: "2024",
@@ -85,7 +85,7 @@ const imageData = [
   },
   {
     id: 10,
-    image: "/media/IMG_6419 copy (1).png",
+    image: "/media/Webp/IMG_6419 copy (1).webp",
     title: "Indian Achievers' Award 2021 – 22 ",
     category: "Entrepreneur Award",
     year: "2021-22",
@@ -95,7 +95,7 @@ const imageData = [
   },
   {
     id: 11,
-    image: "/media/IMG_6423 copy.png",
+    image: "/media/Webp/IMG_6423 copy.webp",
     title: "Uttar Pradesh Annual Solar Awards 2024",
     category: "Annual Award",
     year: "2024",
@@ -105,7 +105,7 @@ const imageData = [
   },
   {
     id: 12,
-    image: "/media/IMG_6425 copy.png",
+    image: "/media/Webp/IMG_6425 copy.webp",
     title: "Industry Outlook Top Solar Industry Startups 2022",
     category: "Startup Recognition",
     year: "2022",
@@ -115,7 +115,7 @@ const imageData = [
   },
   {
     id: 14,
-    image: "/media/IMG_6429_00000.png",
+    image: "/media/Webp/IMG_6429_00000.webp",
     title: "Solar Trail Blazers Conference and Awards",
     category: "Conference Award",
     year: "2024",
@@ -125,7 +125,7 @@ const imageData = [
   },
   {
     id: 16,
-    image: "/media/IMG_6439.png",
+    image: "/media/Webp/IMG_6439.webp",
     title: "Green Energy Business Conclave 2024",
     category: "Business Excellence",
     year: "2024",
@@ -135,7 +135,7 @@ const imageData = [
   },
   {
     id: 19,
-    image: "/media/IMG_6451_00000.png",
+    image: "/media/Webp/IMG_6451_00000.webp",
     title: "Uttar Pradesh Green Future Leadership Awards 2022",
     category: "Green Leadership",
     year: "2022",

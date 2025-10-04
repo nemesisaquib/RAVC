@@ -51,7 +51,7 @@ const scaleIn = {
 const HeroSection = () => {
   return (
     <motion.div 
-      className="relative w-full md:h-auto flex-shrink-0 mt-22 pt-[40px] md:pt-[60px] min-h-[70vh] md:min-h-[85vh] overflow-hidden"
+      className="relative w-full md:h-auto flex-shrink-0 mt-22 mb-10 pt-[40px] md:pt-[60px] min-h-[70vh] md:min-h-[85vh] overflow-hidden"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, margin: "-50px" }}
