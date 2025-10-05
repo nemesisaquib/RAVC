@@ -86,7 +86,7 @@ export default function WhatWeBuild() {
 
 const ServiceCard = ({ title, desc, bg, link }) => {
   return (
-    <div className="group flex-shrink-0 rounded-xl bg-white shadow-lg overflow-hidden w-[90%] sm:w-[380px] h-[420px] transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+    <div className="group flex-shrink-0 rounded-xl bg-white shadow-lg overflow-hidden w-[90%] sm:w-[380px] h-[450px] transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
       {/* Image Section */}
       <div className="h-48 overflow-hidden">
         <img 

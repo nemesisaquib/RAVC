@@ -43,12 +43,12 @@ const VisionMission = () => {
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="hidden md:block absolute right-4 top-4 md:right-10 md:top-10 z-10"
+        className="hidden md:block absolute right-4 top-4 md:right-12 md:top-4 z-10"
       >
         <img
-          src="/about/WhatsApp Image 2025-05-27 at 2.06.00 PM 1.png"
+          src="/about/WhatsApp Image 2025-05-27 at 2.06.00 PM 1.svg"
           alt="Top Icon"
-          className="w-[70px] h-[70px] md:w-[112.568px] md:h-[114px] object-contain"
+          className="w-[70px] h-[70px] md:w-[105px] md:h-[105px] object-contain"
         />
       </motion.div>
 

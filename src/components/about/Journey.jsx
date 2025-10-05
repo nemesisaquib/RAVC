@@ -22,7 +22,7 @@ export default function Journey() {
           <img
             src="/about/WhatsApp Image 2025-05-27 at 2.06.00 PM 1.svg"
             alt="Heart Icon"
-            className="object-cover bg-transparent w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] md:w-[120px] md:h-[120px] lg:w-[125px] lg:h-[125px]"
+            className="object-cover bg-transparent w-[70px] h-[70px] sm:w-[100px] sm:h-[100px] md:w-[120px] md:h-[120px] lg:w-[105px] lg:h-[105px]"
           />
         </motion.div>
 
