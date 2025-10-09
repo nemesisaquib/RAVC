@@ -174,7 +174,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="text-[#e5a844] font-medium text-sm">
-          © {new Date().getFullYear()} RAVC. All Rights Reserved.
+          ©{new Date().getFullYear()} RAVC. All Rights Reserved.
         </div>
         <div className="text-[#e5a844] font-medium text-sm">
           <a

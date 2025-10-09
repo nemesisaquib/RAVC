@@ -39,9 +39,9 @@ export default function Philosophy() {
               </p>
 
               <h1 className="text-white text-[24px] sm:text-[26px] md:text-[30px] lg:text-[34px] font-bold leading-snug sm:leading-snug mb-4 sm:mb-6">
-                Sustainability is Not <br />
-                a Section. <br />
-                It's Our Standard.
+               Our Philosophy:<br />
+               Sustainability is Our Standard . <br />
+             
               </h1>
 
               <p className="text-white text-[16px] sm:text-[18px] lg:text-[22px] sm:text-base leading-relaxed opacity-90">
@@ -70,7 +70,7 @@ export default function Philosophy() {
             >
               {[
                 { value: "275+", label: "MW solar  \npower delivered." },
-                { value: "4.5 Lcs", label: "Equivalent to \nTrees Planted" },
+                { value: "450K", label: "Equivalent to \nTrees Planted" },
                 { value: "4500+", label: "MT of Carbon\nEmission Saved" },
               ].map((stat, i) => (
                 <motion.div

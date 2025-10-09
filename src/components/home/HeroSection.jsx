@@ -59,7 +59,7 @@ const HeroSection = () => {
       
       {/* Image at the bottom with proper z-index */}
       <img
-        src="/home/Rectangle.svg"
+        src="/home/Rectangle.webp"
         alt="Solar Panels"
         className="w-[85%] h-[300px] sm:h-[400px] bottom-0 object-cover rounded-3xl absolute z-0"
       />
