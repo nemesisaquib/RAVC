@@ -71,7 +71,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="flex items-center flex-col relative gap-12 md:gap-20 w-full z-10 px-6 sm:px-8 md:px-12 lg:px-24 xl:px-32">
+      <div className="flex items-center flex-col relative gap-12 md:gap-4 w-full z-10 px-6 sm:px-8 md:px-12 lg:px-24 xl:px-32">
         {/* Main Content */}
         <motion.div 
           className="flex flex-col justify-center items-center w-full gap-12 md:gap-20 max-w-7xl"
@@ -83,12 +83,11 @@ const HeroSection = () => {
             variants={scaleIn}
           >
             <motion.h1
-              className="font-light text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[1.05] tracking-tight text-slate-900"
+              className="font-light text-5xl sm:text-6xl md:text-7xl lg:text-7xl leading-[1.05] tracking-tight text-slate-900"
               variants={fadeUp}
               custom={0}
             >
-              <span className="block font-medium">HARNESSING</span>
-              <span className="block font-medium">INNOVATIVE SOLUTIONS</span>
+              <span className="block font-medium">HARNESSING INNOVATIVE SOLUTIONS</span>
               <motion.span 
                 className="block font-semibold bg-gradient-to-r from-amber-600 via-amber-500 to-amber-400 bg-clip-text text-transparent mt-4"
                 variants={fadeUp}
@@ -112,11 +111,9 @@ const HeroSection = () => {
               custom={2}
             >
               <p className="text-xl md:text-2xl leading-[1.8] text-slate-700 font-light mb-6">
-                We engineer scalable, clean energy systems that support families, businesses, and communities
+               We are not just enabling Renewable Energy infrastructure, but enabling energy security and sustainable models for communities across India.
               </p>
-              <p className="text-lg md:text-xl leading-[1.7] text-slate-600 font-light">
-                All while preserving the planet through sustainable innovation and cutting-edge technology for India's energy future.
-              </p>
+             
             </motion.div>
             
             {/* Premium CTA Button */}
@@ -164,7 +161,7 @@ const HeroSection = () => {
                   scale: 1,
                 }}
                 transition={{ 
-                  delay: 0.8,
+                  delay: 0.4,
                   duration: 1.2,
                   ease: [0.25, 0.46, 0.45, 0.94]
                 }}
@@ -183,7 +180,7 @@ const HeroSection = () => {
               className="absolute -bottom-6 -left-6 bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-2xl border border-slate-200"
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ delay: 1.2, duration: 0.8 }}
+              transition={{ delay: 0.4, duration: 0.3 }}
             >
               <div className="text-center">
                 <div className="text-2xl font-bold text-amber-600">50+</div>
