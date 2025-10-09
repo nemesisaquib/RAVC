@@ -25,7 +25,7 @@ export default function Herosection() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('/service/Turn Your Rooftop Into a Power Plan.svg')",
+            "url('/service/Turn Your Rooftop Into a Power Plan.webp')",
         }}
       />
       {/* Dark Overlay */}

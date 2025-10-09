@@ -148,7 +148,7 @@ const HeroSection = () => {
               transition={{ delay: 1.2, duration: 0.8 }}
             />
             <motion.img
-              src="/home/Rectangle.svg"
+              src="/home/Rectangle.webp"
               alt="Solar Panels"
               className="w-full h-[280px] sm:h-[340px] md:h-[400px] lg:h-[500px] object-cover rounded-3xl shadow-2xl relative z-0"
               initial={{ 

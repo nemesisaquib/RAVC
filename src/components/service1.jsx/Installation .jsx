@@ -70,7 +70,7 @@ const Installation = () => {
                     <div
                         className="relative flex flex-col justify-center items-center text-center p-6 md:p-12 w-full lg:w-[510px]"
                         style={{
-                            backgroundImage: 'url("/service/Background (1).svg")',
+                            backgroundImage: 'url("/service/Background (1).webp")',
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                         }}

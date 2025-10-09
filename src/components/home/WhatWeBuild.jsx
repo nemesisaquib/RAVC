@@ -8,7 +8,7 @@ export default function WhatWeBuild() {
     <div
       className="relative bg-cover bg-center bg-no-repeat min-h-[762px] py-20"
       style={{
-        backgroundImage: "url('/home/bg.jpg')",
+        backgroundImage: "url('/home/bg.webp')",
       }}
     >
       {/* Dark overlay */}
@@ -34,25 +34,25 @@ export default function WhatWeBuild() {
               {
                 title: "EPC DEVELOPMENT",
                 desc: "Ensuring Performance Optimization and reduce operational cost for better ROI.",
-                bg: "/home/freepik__retouch__69119 1.png",
+                bg: "/home/freepik__retouch__69119 1.webp",
                 link: "/epc-development",
               },
               {
                 title: "IIP",
                 desc: "Identify energy-saving opportunities and improve efficiency across systems.",
-                bg: "/home/bg-card.jpg",
+                bg: "/home/bg-card.webp",
                 link: "/coming-soon",
               },
               {
                 title: "SOLAR ROOFTOP",
                 desc: "Empowering Buildings To Become Energy Producers, Not Just Consumers.",
-                bg: "/home/freepik__the-style-is-candid-image-photography-with-natural__69116.png",
+                bg: "/home/freepik__the-style-is-candid-image-photography-with-natural__69116.webp",
                 link: "/solar-rooftop",
               },
               {
                 title: "Operation & Maintenance",
                 desc: "Focusing on precision, quality, and performance using cutting edge technologies.",
-                bg: "/home/freepik__the-style-is-candid-image-photography-with-natural__69120 1.png",
+                bg: "/home/freepik__the-style-is-candid-image-photography-with-natural__69120 1.webp",
                 link: "/operation-and-maintenance",
               },
             ].map((item, idx) => (
