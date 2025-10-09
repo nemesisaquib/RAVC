@@ -29,7 +29,7 @@ export default function WhatWeBuild() {
 
         {/* Cards Section */}
         <div className="w-full mt-6 px-[5%]">
-          <div className="flex space-x-4 overflow-x-auto pb-4 scrollbar-custom">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-items-center">
             {[
               {
                 title: "EPC DEVELOPMENT",
@@ -83,69 +83,58 @@ export default function WhatWeBuild() {
 
 const ServiceCard = ({ title, desc, bg, link }) => {
   return (
-    <div className="cursor-pointer group flex-shrink-0 rounded-xl bg-white shadow-lg overflow-hidden w-[90%] sm:w-[380px] h-[450px] transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-      {/* Image Section - Fixed with relative positioning */}
-      <div className="relative h-48 overflow-hidden">
-        <img 
-          src={bg} 
+    <div className="cursor-pointer group flex-shrink-0 rounded-xl bg-white shadow-lg overflow-hidden w-full max-w-[500px] h-[320px] transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+      {/* Image Section - Fixed aspect ratio */}
+      <div className="relative h-32 overflow-hidden">
+        <img
+          src={bg}
           alt={title}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" // Reduced scale from 110 to 105
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
-        {/* Gradient overlay - positioned relative to the image container */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+        {/* Gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-transparent"></div>
       </div>
 
-      {/* Content Section */}
-      <div className="p-6">
-        {/* Title with Icon */}
-        <div className="flex items-center mb-4">
-          <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center mr-3">
-            <svg 
-              xmlns="http://www.w3.org/2000/svg" 
-              className="h-6 w-6 text-amber-600" 
-              fill="none" 
-              viewBox="0 0 24 24" 
-              stroke="currentColor"
-            >
-              <path 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth={2} 
-                d="M13 10V3L4 14h7v7l9-11h-7z" 
-              />
-            </svg>
-          </div>
-          <h3 className="text-gray-800 text-xl font-bold uppercase">
+      {/* Content Section - Better spacing */}
+      <div className="p-6 flex flex-col h-[calc(100%-128px)]">
+        {/* Title */}
+        <div className="mb-3">
+          <h3 className="text-gray-800 text-xl font-bold uppercase tracking-tight mb-2">
             {title}
           </h3>
+          <div className="w-10 h-1 bg-amber-500 rounded-full"></div>
         </div>
-        
-        {/* Description */}
-        <p className="text-gray-600 text-lg leading-relaxed mb-6">
-          {desc}
-        </p>
-        
+
+        {/* Description - Better line height */}
+        <div className="flex-grow mb-4">
+          <p className="text-gray-600 text-base leading-relaxed">
+            {desc}
+          </p>
+        </div>
+
         {/* Learn More Link */}
-        <Link 
-          to={link}
-          className="inline-flex items-center text-amber-600 font-medium hover:text-amber-700 transition-colors group-hover:underline"
-        >
-          <span>Learn More</span>
-          <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            className="h-5 w-5 ml-1 transform group-hover:translate-x-1 transition-transform" 
-            fill="none" 
-            viewBox="0 0 24 24" 
-            stroke="currentColor"
+        <div className="mt-auto">
+          <Link
+            to={link}
+            className="inline-flex items-center text-amber-600 font-semibold hover:text-amber-700 transition-colors group-hover:underline"
           >
-            <path 
-              strokeLinecap="round" 
-              strokeLinejoin="round" 
-              strokeWidth={2} 
-              d="M14 5l7 7m0 0l-7 7m7-7H3" 
-            />
-          </svg>
-        </Link>
+            <span>Learn More</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-4 w-4 ml-2 transform group-hover:translate-x-1 transition-transform"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M14 5l7 7m0 0l-7 7m7-7H3"
+              />
+            </svg>
+          </Link>
+        </div>
       </div>
     </div>
   );
