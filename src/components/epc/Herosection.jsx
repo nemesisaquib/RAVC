@@ -21,7 +21,7 @@ const Herosection = () => {
     <div
       className="relative bg-cover bg-center h-[419px] text-white mt-[115px]"
       style={{
-        backgroundImage: `url('/service/Ensuring Your Solar Assets Perform — Day After Day.webp')`,
+        backgroundImage: `url('/service/Ensuring-Your-Solar-Assets-Perform-Day-After-Day.webp')`,
       }}
     >
       {/* Overlay */}

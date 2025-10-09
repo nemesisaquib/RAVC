@@ -24,7 +24,7 @@ export default function Herosection() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('/service/Ensuring Your Solar Assets Perform — Day After Day.svg')",
+            "url('/service/Ensuring-Your-Solar-Assets-Perform-Day-After-Day.webp')",
         }}
       />
       {/* Dark Overlay */}

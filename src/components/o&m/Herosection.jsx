@@ -22,7 +22,7 @@ const SolarHero = () => {
     <div
       className="relative bg-cover bg-center h-[419px] text-white mt-[115px]"
       style={{
-        backgroundImage: `url('/service/Ensuring Your Solar Assets Perform — Day After Day.svg')`,
+        backgroundImage: `url('/service/Ensuring-Your-Solar-Assets-Perform-Day-After-Day.webp')`,
       }}
     >
       {/* Overlay */}
